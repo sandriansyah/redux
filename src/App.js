@@ -1,14 +1,13 @@
-import { useState } from 'react';
 import './App.css';
-import ListContact from './component/listContact';
+import { ListContact } from './component';
+
 
 function App() {
 
-  const [name,setName]= useState('Sandriansyah')
-
   return (
-    <div style={{marginLeft:"100px",marginTop:"50px"}}>
+    <div style={{padding:"70px"}}>
       <h2>Contact App</h2>
+      <hr/>
       <ListContact/>
     </div>
   );
